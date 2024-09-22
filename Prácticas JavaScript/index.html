@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Ejercicios Javascript</title>
+</head>
+<body>
+    <h1>Ejercicios Javascript</h1>
+
+    <h2>Interés ganado</h2>
+    <form id="interesForm">
+        Capital: <input type="text" id="ci" required>
+        Meses: <input type="text" id="mes" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoInteres"></div>
+
+    <h2>Sueldo y comisiones</h2>
+    <form id="sueldoForm">
+        Primer venta: <input type="text" id="venta1" required>
+        Segunda venta: <input type="text" id="venta2" required>
+        Tercera venta: <input type="text" id="venta3" required>
+        Sueldo: <input type="text" id="sueldoBase" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoSueldo"></div>
+
+    <h2>Descuento aplicado</h2>
+    <form id="descuentoForm">
+        Cantidad: <input type="text" id="cantidad" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoDescuento"></div>
+
+    <h2>Calificación final</h2>
+    <form id="calificacionForm">
+        Calificación 1: <input type="text" id="cal1" required>
+        Calificación 2: <input type="text" id="cal2" required>
+        Calificación 3: <input type="text" id="cal3" required>
+        Calificación del examen: <input type="text" id="calex" required>
+        Calificación del trabajo final: <input type="text" id="calt" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoCalificacion"></div>
+
+    <h2>Edad</h2>
+    <form id="edadForm">
+        Fecha de nacimiento: <input type="date" id="fechaNacimiento" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoEdad"></div>
+
+    <h2>Palabras a Números</h2>
+    <form id="palabrasForm">
+        Números en palabras: <input type="text" id="palabras" required>
+        <button type="submit">Convertir</button>
+    </form>
+    <div id="resultadoPalabras"></div>
+
+    <h2>Horas extra</h2>
+    <form id="horasForm">
+        Horas trabajadas: <input type="text" id="horas" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoHoras"></div>
+
+    <h2>Utilidades</h2>
+    <form id="utilidadesForm">
+        Tiempo en la empresa: <input type="text" id="tiempo" required>
+        Salario mensual: <input type="text" id="sueldoUtilidades" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultadoUtilidades"></div>
+
+    <h2>DNI</h2>
+    <form id="registroForm">
+        Nombre: <input type="text" id="nombre" required>
+        Correo: <input type="text" id="email" required>
+        Contraseña: <input type="password" id="password" required>
+        Comentarios: <textarea id="comentarios" required></textarea>
+        Acepto las condiciones<input type="checkbox" id="aceptar" required>
+        <button type="submit">Registrar</button>
+    </form>
+
+    <h2>Eliminar scripts</h2>
+    <form id="eliminarScriptsForm">
+        HTML: <textarea id="htmlInput" required></textarea>
+        <button type="submit">Eliminar</button>
+    </form>
+    <div id="resultadoScripts"></div>
+    
+    <script src="validaciones.js"></script>
+</body>
+</html>
+
